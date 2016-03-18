@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_tabhost_height"
+        android:background="@color/app_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="探索分享"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <!-- 分享文字至所有第三方软件 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_text"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享文字至所有第三方软件"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 分享单张图片至所有第三方软件 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_singleimage"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享单张图片至所有第三方软件"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 分享多张图片至所有第三方软件 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_multipleimage"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享多张图片至所有第三方软件"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 分享至QQ空间 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_qq"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享至QQ空间"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 分享至腾讯微博 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_qqtencent"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享至腾讯微博"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 分享至微信 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享至微信"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 分享至微博 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_microblog"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享至微博"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+    <!-- 分享至其他 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_share_other"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_ontouch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/acitvity_margin"
+            android:text="分享至其他"
+            android:textColor="@color/app_color"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/acitvity_margin"
+            android:src="@mipmap/icon_rirht" />
+    </RelativeLayout>
+
+    <View style="@style/horizontalDivider" />
+</LinearLayout>

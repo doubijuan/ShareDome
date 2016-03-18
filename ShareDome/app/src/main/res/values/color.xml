@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color">#00A0EA</color>
+    <!-- 白色 -->
+    <color name="white">#ffffffff</color>
+    <!-- 灰色 -->
+    <color name="gray">#ff777777</color>
+</resources>
